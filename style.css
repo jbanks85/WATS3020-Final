@@ -10,7 +10,7 @@
   
   body {
     margin: 0;
-    background: radial-gradient(#7E228E, #5B0953);
+    background: radial-gradient(#25064C, #7E228E);
   }
   
   .page-title {
@@ -76,8 +76,9 @@
   }
   
   .card-back {
-    background-color: rgb(215, 174, 11);
+    background-color: #D9A91A;
     border-color: purple;
+    border-width: .25em;
     transform: rotateY(0); 
   }
   
@@ -148,8 +149,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #FF6D00;
-    font-family: Creepy, serif;
+    color: rgb(239, 185, 48);
+    font-family: 'Baloo Chettan 2', cursive, serif;
+    font-weight: bold;
     transition: background-color 500ms, font-size 500ms;
   }
   
